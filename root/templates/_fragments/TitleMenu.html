@@ -1,0 +1,96 @@
+{% load static %}
+      <header class="page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-default" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-static" data-lg-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-stick-up-clone="false" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true" data-md-stick-up-offset="115px" data-lg-stick-up-offset="35px">
+            <!-- RD Navbar Top Panel-->
+            <div class="rd-navbar-top-panel rd-navbar-top-panel-dark">
+              <div class="rd-navbar-top-panel__main">
+                <div class="rd-navbar-top-panel__toggle rd-navbar-fixed__element-1 rd-navbar-static--hidden" data-rd-navbar-toggle=".rd-navbar-top-panel__main"><span></span></div>
+                <div class="rd-navbar-top-panel__content">
+                  <div class="rd-navbar-top-panel__left">
+                    <ul class="rd-navbar-items-list">
+                      <li>
+                        <div class="unit flex-row align-items-center unit-spacing-xs">
+                          <div class="unit__left"><span class="icon icon-sm icon-primary linear-icon-map-marker"></span></div>
+                          <div class="unit__body">
+                            <p><a href="https://www.google.com/maps/place/ANMA+electric/@50.4481144,30.4206435,16z/data=!4m14!1m7!3m6!1s0x40d4cd559c7dd7bd:0x99fc47c81e36c501!2sANMA+electric!8m2!3d50.4470042!4d30.4275528!16s%2Fg%2F11fqt0fkxt!3m5!1s0x40d4cd559c7dd7bd:0x99fc47c81e36c501!8m2!3d50.4470042!4d30.4275528!16s%2Fg%2F11fqt0fkxt?entry=ttu"  target="_blank">бульвар Вацлава Гавела, Київ, 02000</a></p>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="unit flex-row align-items-center unit-spacing-xs">
+                          <div class="unit__left"><span class="icon icon-sm icon-primary linear-icon-telephone"></span></div>
+                          <div class="unit__body">
+                            <ul class="list-semicolon">
+                              <li><a href="tel:#">(099) 282-20-20</a></li>
+                              <li><a href="tel:#">(068) 282-20-20</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="unit flex-row align-items-center unit-spacing-xs">
+                          <div class="unit__left"><span class="icon icon-sm icon-primary fa fa-envelope"></span></div>
+                          <div class="unit__body">
+                            <ul class="list-semicolon">
+                              <li><a href="mailto:anma.electric@gmail.com">anma.electric@gmail.com</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="rd-navbar-top-panel__right">
+                    <ul class="list-inline-xxs">
+                      <li><a class="icon icon-xxs icon-gray-darker fa fa-facebook" href="https://www.facebook.com/ANMA.Ukraine/" target="_blank"></a></li>
+                      <li><a class="icon icon-xxs icon-gray-darker fa-instagram" href="https://www.instagram.com/anma_electric/" target="_blank"></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rd-navbar-inner rd-navbar-search-wrap">
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel rd-navbar-search-lg_collapsable">
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <!-- RD Navbar Brand-->
+                <div class="rd-navbar-brand"><a class="brand-name" href="/"><img src="{% static 'images/logo_B.png' %}" alt="" width="172" height="33"/></a></div>
+              </div>
+              <!-- RD Navbar Nav-->
+              <div class="rd-navbar-nav-wrap rd-navbar-search_not-collapsable">
+                <div class="rd-navbar-search_collapsable">
+                  <ul class="rd-navbar-nav">
+                    <li class="active"><a href="/" style="font-size: 19px;">Головна</a>
+                    </li>
+                    <li><a href="/about" style="font-size: 19px;">Про ANMA</a>
+                    </li>
+                    <li><a href="/portfolio" style="font-size: 19px;">Портфоліо</a>
+                    </li>
+                    <li><a href="/price" style="font-size: 19px;">Прайс</a>
+                    </li>
+                    <li><a href="/contacts" style="font-size: 19px; ">Контакти</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <section class="section parallax-container context-dark" data-parallax-img="{% static 'images/parallax-1.jpg' %}">
+        <div class="parallax-content parallax-header">
+          <div class="parallax-header__inner context-dark text-center">
+            <div class="parallax-header__content">
+              <div class="container">
+                <div class="row justify-content-sm-center">
+                  <div class="col-md-10 col-xl-8">
+                    <h2 class="heading-decorated">{{ title }}</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
