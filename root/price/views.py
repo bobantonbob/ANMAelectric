@@ -6,3 +6,5 @@ def index(request):
         'page': 'index',
         'app': 'price',
     })
+
+

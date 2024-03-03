@@ -22,3 +22,26 @@ def about(request):
         'page': 'about',
         'app': 'home',
     })
+
+
+def privacy_policy(request):
+    return render(request, 'home/privacy_policy.html', {
+        'title': 'Політика конфіденційності',
+        'page': 'privacy_policy',
+        'app': 'home',
+    })
+
+def warranty(request):
+    return render(request, 'home/warranty.html', {
+        'title': 'Гарантія ',
+        'page': 'warranty',
+        'app': 'home',
+    })
+
+
+def orders(request):
+    return render(request, 'home/orders.html', {
+        'title': 'Заявка ',
+        'page': 'orders',
+        'app': 'home',
+    })
