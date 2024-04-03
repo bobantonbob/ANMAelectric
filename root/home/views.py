@@ -45,3 +45,17 @@ def orders(request):
         'page': 'orders',
         'app': 'home',
     })
+
+def lightning(request):
+    return render(request, 'home/lightning.html', {
+        'title': 'Блискавкозахист ',
+        'page': 'lightning',
+        'app': 'home',
+    })
+
+def grounding(request):
+    return render(request, 'home/grounding.html', {
+        'title': 'Заземлення ',
+        'page': 'grounding',
+        'app': 'home',
+    })

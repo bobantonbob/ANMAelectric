@@ -8,5 +8,7 @@ urlpatterns = [
     path('privacy_policy', privacy_policy),
     path('warranty', warranty),
     path('orders', orders),
+    path('grounding', grounding),
+    path('lightning', lightning),
 
 ]
