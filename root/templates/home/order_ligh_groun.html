@@ -1,0 +1,38 @@
+{% extends '_layouts/base.html' %}
+{% load static %}
+{% block content %}
+{% include '_fragments/TitleMenu.html' %}
+<div class="section-sm section-divided">
+    <div class="bg-decor d-flex align-items-center"
+         data-parallax-scroll="{&quot;x&quot;: 80,  &quot;smoothness&quot;: 30}"><img
+            src="{% static 'images/bg-decor-1.png' %}" alt=""/></div>
+
+    <div class="container">
+        <section class="section-sm">
+            <!-- Quote centered-->
+            <div class="quote-centered">
+                <svg class="quote-centered__mark" version="1.1" baseprofile="tiny" xmlns="http://www.w3.org/2000/svg"
+                     x="0px" y="0px" width="40.234px" height="33.484px" viewbox="0 0 30.234 23.484"
+                     xml:space="preserve">
+                      <g>
+                        <path fill="#ffcc12"
+                              d="M12.129,0v1.723c-2.438,0.891-4.348,2.291-5.73,4.201c-1.383,1.911-2.074,3.897-2.074,5.959 c0,0.445,0.07,0.773,0.211,0.984c0.093,0.141,0.199,0.211,0.316,0.211c0.117,0,0.293-0.082,0.527-0.246 c0.75-0.539,1.699-0.809,2.848-0.809c1.336,0,2.519,0.545,3.551,1.635c1.031,1.09,1.547,2.385,1.547,3.885 c0,1.57-0.592,2.953-1.775,4.148c-1.184,1.195-2.619,1.793-4.307,1.793c-1.969,0-3.668-0.809-5.098-2.426 C0.715,19.441,0,17.274,0,14.555c0-3.164,0.972-6,2.918-8.508C4.863,3.539,7.933,1.524,12.129,0z M29.039,0v1.723 c-2.438,0.891-4.348,2.291-5.73,4.201c-1.383,1.911-2.074,3.897-2.074,5.959c0,0.445,0.07,0.773,0.211,0.984 c0.094,0.141,0.199,0.211,0.316,0.211s0.293-0.082,0.527-0.246c0.75-0.539,1.699-0.809,2.848-0.809 c1.336,0,2.52,0.545,3.551,1.635s1.547,2.385,1.547,3.885c0,1.57-0.592,2.953-1.775,4.148s-2.619,1.793-4.307,1.793 c-1.969,0-3.668-0.809-5.098-2.426s-2.145-3.785-2.145-6.504c0-3.164,0.973-6,2.918-8.508 C21.773,3.539,24.844,1.524,29.039,0z"></path>
+                      </g>
+                  </svg>
+                <div class="quote-centered__text">
+                    <p class="q">Залиште заявку ми вам зателефонуємо</p>
+                </div>
+                <p class="quote-centered__cite">ANMA-electric</p>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfC2lkc_8hQlSDAVn42V4lA7NOwWFWa-P1eEiexuM6zKt5FHQ/viewform?embedded=true"
+                        width="100%" height="1340" frameborder="0" marginheight="0" marginwidth="0">Завантаження…
+                </iframe>
+            </div>
+        </section>
+    </div>
+    <section class="section-md bg-default text-center decor-text" id="features" data-content="Feedback"></section>
+</div>
+
+{% include '_fragments/FooterAbout.html' %}
+
+
+{% endblock content %}

@@ -10,5 +10,5 @@ urlpatterns = [
     path('orders', orders),
     path('grounding', grounding),
     path('lightning', lightning),
-
+    path('order_ligh_groun', order_ligh_groun),
 ]

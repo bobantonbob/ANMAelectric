@@ -59,3 +59,10 @@ def grounding(request):
         'page': 'grounding',
         'app': 'home',
     })
+
+def order_ligh_groun(request):
+    return render(request, 'home/order_ligh_groun.html', {
+        'title': 'Заявка Блискавкозахист та Заземлення ',
+        'page': 'order_ligh_groun',
+        'app': 'home',
+    })
